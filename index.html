@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi's Gym</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=
+            Belanosima&family=Montserrat:wght@200&family=Roboto:
+            ital,wght@0,300;1,100&family=Ysabeau+Infant:ital,wght@1,
+            100&display=swap" rel="stylesheet">"
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+
+    /* CSS Reset */
+    body{
+        text-decoration: underline;
+        color: white;
+        font-family: font-family: 'Belanosima', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/bg.jpg');
+        height: 4000px;
+    }
+
+
+    .left div{
+        line-height: 30px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 1px auto;
+        /* border: 2px solid green; */
+        
+    }
+
+    .right{
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar{
+        display: inline-block;
+    }
+
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 37px 8px;
+    }
+
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: grey;
+        
+    }
+
+    .left img{
+        width: 136px;
+        filter: invert(100%);   /*for color change from black to white*/
+    }
+
+    .btn{
+        font-family: font-family: 'Belanosima', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .container{
+        border: 2px solid white;
+        margin: 94px 448px;
+        padding: 65px;
+        width: 33%;
+        border-radius: 30px;
+    }
+
+    .form-group input{
+        font-family: 'Belanosima', sans-serif;
+        text-align: center;
+        margin: 11px auto;
+        width: 501px;
+        border: 2px solid black;
+        display: block;
+        font-size: 25px;
+        border-radius: 8px;
+        padding: 1px;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        margin: 20px auto;
+        display: block;
+        width: 110px;
+    }
+
+
+</style>
+
+
+<body> 
+
+
+    <!-- left box for logo -->
+    <div class="left">
+        <img src="img/gym.jpg" alt="">
+        <div>Khushi Fitness</div>
+    </div>
+
+
+
+    <!-- mid box for navigation bar -->
+    <div class="mid">
+
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    
+    </div>
+
+
+
+    <!-- right box for extra buttons -->
+    <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+    </div>
+
+
+    <!-- some content for page -->
+    <div class="container">
+        <h1>Join the best gym of Noida</h1>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+
+    
+</body>
+</html>
